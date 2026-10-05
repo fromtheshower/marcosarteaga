@@ -9,6 +9,10 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
     <meta name="theme-color" content="#fafaf8" />
     <meta name="description" content="How Marcos Arteaga handles audit enquiries, account access, and your personal information." />
     <link rel="canonical" href="https://marcosarteaga.com/privacy/" />
+    <link rel="alternate" hreflang="en-CA" href="https://marcosarteaga.com/privacy/" />
+    <link rel="alternate" hreflang="fr-CA" href="https://marcosarteaga.com/fr/privacy/" />
+    <link rel="alternate" hreflang="es-ES" href="https://marcosarteaga.com/es/privacy/" />
+    <link rel="alternate" hreflang="x-default" href="https://marcosarteaga.com/privacy/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Marcos Arteaga" />
     <meta property="og:url" content="https://marcosarteaga.com/privacy/" />
@@ -23,6 +27,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
 
     <header class="site-header wrap">
       <a class="wordmark" href="../" aria-label="Marcos Arteaga, homepage">Marcos Arteaga<span class="wordmark-dot">.</span></a>
+      <nav class="language-nav" aria-label="Language"><a href="/privacy/" lang="en" aria-current="page">EN</a><a href="/fr/privacy/" lang="fr-CA">FR</a><a href="/es/privacy/" lang="es-ES">ES</a></nav>
       <a class="header-link" href="../#booking">Book the audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
     </header>
 

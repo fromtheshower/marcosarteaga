@@ -6,6 +6,10 @@
     <meta name="theme-color" content="#fafaf8" />
     <meta name="description" content="Independent audits of Google, Meta, TikTok, and Snapchat Ads. Find wasted spend, check tracking, and leave with a prioritized fix plan." />
     <link rel="canonical" href="https://marcosarteaga.com/" />
+    <link rel="alternate" hreflang="en-CA" href="https://marcosarteaga.com/" />
+    <link rel="alternate" hreflang="fr-CA" href="https://marcosarteaga.com/fr/" />
+    <link rel="alternate" hreflang="es-ES" href="https://marcosarteaga.com/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://marcosarteaga.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Marcos Arteaga" />
     <meta property="og:url" content="https://marcosarteaga.com/" />
@@ -56,6 +60,7 @@
 
     <header class="site-header wrap">
       <a class="wordmark" href="#top" aria-label="Marcos Arteaga, back to top">Marcos Arteaga<span class="wordmark-dot">.</span></a>
+      <nav class="language-nav" aria-label="Language"><a href="/" lang="en" aria-current="page">EN</a><a href="/fr/" lang="fr-CA">FR</a><a href="/es/" lang="es-ES">ES</a></nav>
       <a class="header-link" href="#booking">Book the audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
     </header>
 
@@ -155,6 +160,7 @@
         <div class="section-heading"><p class="section-kicker">The next step</p><div><h2 id="booking-title">Book the audit.</h2><p class="section-lede">Tell me what’s happening in the account. I’ll reply personally within 2 business days about fit and next steps.</p></div></div>
         <div class="booking-grid"><div class="booking-aside"><p>No account access needed to send an enquiry. If we work together, access is read-only.</p><p>Fixed scope. Flat fee. No ongoing management.</p></div>
           <form id="booking-form" novalidate>
+            <input type="hidden" name="locale" value="en" />
             <div class="form-row"><div class="field"><label for="name">Name <span aria-hidden="true">*</span></label><input id="name" name="name" autocomplete="name" required maxlength="120" /></div><div class="field"><label for="email">Email <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254" /></div></div>
             <div class="field"><label for="website">Website <span aria-hidden="true">*</span></label><input id="website" name="website" type="url" inputmode="url" placeholder="https://yourcompany.com" required maxlength="500" /></div>
             <div class="field"><label for="spend">Monthly ad spend <span aria-hidden="true">*</span></label><select id="spend" name="monthlyAdSpend" required><option value="">Select a range</option><option value="under-5k">Under $5,000/month</option><option value="5k-15k">$5,000–$15,000/month</option><option value="15k-50k">$15,000–$50,000/month</option><option value="50k-plus">$50,000+/month</option></select></div>
