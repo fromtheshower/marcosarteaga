@@ -59,7 +59,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
 
     <header class="site-header wrap">
       <a class="wordmark" href="#top" aria-label="Marcos Arteaga, back to top">Marcos Arteaga<span class="wordmark-dot">.</span></a>
-      <a class="header-link" href="#booking">Book the audit <span aria-hidden="true">↗</span></a>
+      <a class="header-link" href="#booking">Book the audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
     </header>
 
     <main id="main">
@@ -68,7 +68,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
         <h1 id="hero-title">Your ad account is leaking money. I’ll show you exactly where.</h1>
         <div class="hero-bottom">
           <p class="hero-intro">A fixed-scope audit of your Google Ads, Meta Ads, TikTok Ads, or Snapchat Ads accounts, delivered in 10 business days. Every finding backed by your own data. No retainer. No fluff.</p>
-          <a class="button button-primary" href="#booking">Book the audit <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="#booking">Book the audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
         </div>
         <div class="hero-footer" aria-hidden="true"><span>Independent diagnosis</span><span>Prioritized next steps</span><span>Personally by Marcos</span></div>
       </section>
@@ -143,7 +143,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
           <div class="portrait-frame"><img src="assets/marcos-portrait.png" alt="Black-and-white portrait of Marcos Arteaga" width="400" height="400" loading="lazy" /></div>
           <div class="about-copy"><p>I’m Marcos Arteaga. I’ve worked across fashion retail, DTC, SaaS, B2B, and publishing. I now focus on one job: finding where paid media accounts leak money and giving you a plan you can actually use.</p></div>
         </div>
-        <div class="logo-area"><p class="section-kicker">Selected experience</p><div class="logo-strip" aria-label="Organizations represented in Marcos's experience"><img src="assets/hippoc.png" alt="Hippoc" width="200" height="60" loading="lazy" /><img src="assets/future.png" alt="Future" width="100" height="42" loading="lazy" /><img src="assets/mobile-nations.png" alt="Mobile Nations" width="300" height="106" loading="lazy" /><img src="assets/mindgeek.png" alt="MindGeek" width="148" height="33" loading="lazy" /><img src="assets/fhios.png" alt="Fhios" width="300" height="212" loading="lazy" /><img src="assets/groupe-dynamite.svg" alt="Groupe Dynamite" width="107" height="51" loading="lazy" /></div></div>
+        <div class="logo-area"><p class="section-kicker">Selected experience</p><div class="logo-strip" aria-label="Organizations represented in Marcos's experience"><img src="assets/hippoc.png" alt="Hippoc" width="200" height="60" loading="lazy" /><img src="assets/future.png" alt="Future" width="100" height="42" loading="lazy" /><img src="assets/mobile-nations.png" alt="Mobile Nations" width="300" height="106" loading="lazy" /><img src="assets/mindgeek.png" alt="MindGeek" width="148" height="33" loading="lazy" /><img src="assets/fhios.png" alt="Fhios" width="300" height="212" loading="lazy" /><img class="logo-gdi" src="assets/groupe-dynamite.svg" alt="Groupe Dynamite" width="107" height="51" loading="lazy" /></div></div>
       </section>
 
       <section class="section soft-section faq-section" id="faq" aria-labelledby="faq-title"><div class="wrap"><div class="section-heading"><p class="section-kicker">Questions</p><div><h2 id="faq-title">Before you book.</h2></div></div><div class="faq-list">
@@ -173,7 +173,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
             <div class="field"><label for="concern">What’s bothering you about your account? <span aria-hidden="true">*</span></label><textarea id="concern" name="concern" rows="5" required maxlength="3000" placeholder="What feels off? What have you tried?"></textarea></div>
             <div class="visually-hidden" aria-hidden="true"><label for="company-fax">Leave this field blank</label><input id="company-fax" name="companyFax" tabindex="-1" autocomplete="off" /></div>
             <p class="form-small">I’ll use these details to reply about your audit enquiry. <a href="privacy/">How I handle your information</a>.</p>
-            <button class="button button-primary submit-button" type="submit">Send audit enquiry <span aria-hidden="true">↗</span></button>
+            <button class="button button-primary submit-button" type="submit">Send audit enquiry <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></button>
             <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
           </form>
           <div id="booking-success" class="booking-success" role="status" tabindex="-1" hidden>
@@ -186,8 +186,8 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
 
     </main>
 
-    <footer class="site-footer wrap"><a class="wordmark" href="#top">Marcos Arteaga<span class="wordmark-dot">.</span></a><div class="footer-links"><a href="privacy/">Privacy</a><a href="https://marcosarteaga.com/blog/">Blog <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/marcosarteaga/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://fromtheshower.com/" target="_blank" rel="noopener noreferrer">FromTheShower <span aria-hidden="true">↗</span></a></div><small>© Marcos Arteaga</small></footer>
+    <footer class="site-footer wrap"><a class="wordmark" href="#top">Marcos Arteaga<span class="wordmark-dot">.</span></a><div class="footer-links"><a href="privacy/">Privacy</a><a href="https://marcosarteaga.com/blog/">Blog <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a><a href="https://www.linkedin.com/in/marcosarteaga/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a><a href="https://fromtheshower.com/" target="_blank" rel="noopener noreferrer">FromTheShower <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a></div><small>© Marcos Arteaga</small></footer>
 
-    <a id="mobile-booking" class="mobile-booking" href="#booking" hidden>Book the audit <span aria-hidden="true">↗</span></a>
+    <a id="mobile-booking" class="mobile-booking" href="#booking" hidden>Book the audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
   </body>
 </html>

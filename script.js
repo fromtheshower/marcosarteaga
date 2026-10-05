@@ -3,6 +3,7 @@
   const status = document.querySelector("#form-status");
   const success = document.querySelector("#booking-success");
   const button = form.querySelector('button[type="submit"]');
+  const buttonMarkup = button.innerHTML;
   const spend = document.querySelector("#spend");
   const spendNote = document.querySelector("#spend-note");
   const platformChecks = [...form.querySelectorAll('input[name="platforms"]')];
@@ -91,7 +92,7 @@
     } finally {
       window.clearTimeout(timeout);
       button.disabled = false;
-      button.innerHTML = 'Send audit enquiry <span aria-hidden="true">↗</span>';
+      button.innerHTML = buttonMarkup;
     }
   });
 })();
