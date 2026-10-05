@@ -39,34 +39,34 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
       <div class="privacy-content">
         <section aria-labelledby="privacy-collect">
           <h2 id="privacy-collect">What I collect</h2>
-          <p>The enquiry form asks for your name, email address, website, monthly ad spend range, platforms, and what’s bothering you about the account. If you select “Other platform,” you can name it. No account access is needed or requested at the enquiry stage.</p>
-          <p>The web host may also record standard request details, such as your IP address, for site operation and security. To limit spam, the form keeps a hashed IP key and submission times in a temporary server file.</p>
+          <p>When you send an audit enquiry, I collect what you type into the form: your name, email address, website, monthly ad spend range, the platforms you use, and your message. If you choose “Other platform,” I collect the platform you name. No account access is needed—or asked for—at the enquiry stage.</p>
+          <p>The web host may log standard request details, such as your IP address. To limit spam, the form keeps a hashed IP key and submission times in a server temporary file.</p>
         </section>
 
         <section aria-labelledby="privacy-purpose">
           <h2 id="privacy-purpose">Why I collect it</h2>
-          <p>To answer your enquiry about fit and next steps. If you select a spend range below the audit’s usual fit, the form also sends a short automated reply. The technical details above help keep the form working and limit abuse.</p>
+          <p>To reply to your enquiry about fit and next steps. That’s the purpose. If your spend is below the audit’s usual fit, the form sends a short automatic reply. The technical details keep the form running and limit spam.</p>
         </section>
 
         <section aria-labelledby="privacy-use">
           <h2 id="privacy-use">What I don’t do</h2>
-          <p>I don’t add you to a marketing or newsletter list. I don’t sell or rent your information. I don’t use your enquiry to advertise to you.</p>
+          <p>I don’t add you to any marketing or newsletter list. I don’t sell or rent your information. I use what you type only to respond to your enquiry. I don’t pass it to a partner agency unless you choose a separate implementation engagement.</p>
         </section>
 
         <section aria-labelledby="privacy-where">
           <h2 id="privacy-where">Where it goes</h2>
-          <p>Enquiries are sent to <a href="mailto:marcos@fromtheshower.com">marcos@fromtheshower.com</a> through Google Workspace. The site runs on a Plesk web host, which processes the form and technical logs. These providers handle information to run the site and deliver the email; their systems may process it outside Québec. I don’t pass your enquiry to a partner agency unless you choose a separate implementation engagement.</p>
-          <p>If we work together, the audit uses read-only access to your ad accounts, analytics, and sales data. I don’t change your accounts. Your data stays yours.</p>
+          <p>Enquiries are emailed to me at <a href="mailto:marcos@fromtheshower.com">marcos@fromtheshower.com</a> through Google Workspace. The site runs on a Plesk web host. Both providers process information needed to run the site and deliver the email; their systems may process it outside Québec.</p>
+          <p>If we end up working together, the audit itself runs on read-only access to your ad accounts, analytics, and sales data. Nothing gets changed, and your data stays yours.</p>
         </section>
 
         <section aria-labelledby="privacy-retention">
           <h2 id="privacy-retention">How long I keep it</h2>
-          <p>If we don’t work together, I delete your enquiry details within 12 months. If we do, I keep the information needed for our work for the duration of the working relationship, and longer only where the law requires it. The server keeps technical logs and spam-control records separately for site operation and security.</p>
+          <p>If we don’t work together, I delete enquiry details within 12 months. If we do, they’re kept for the duration of our working relationship, and longer only if the law requires it. The host’s technical logs and the form’s spam-control records are kept separately for site operation and security.</p>
         </section>
 
         <section aria-labelledby="privacy-rights">
           <h2 id="privacy-rights">Your rights</h2>
-          <p>You can ask to see or correct the personal information I hold about you, withdraw consent where applicable, or ask me to delete it, subject to any legal retention obligation. You can also bring me a privacy concern. Email <a href="mailto:marcos@fromtheshower.com">marcos@fromtheshower.com</a> and I’ll handle it personally.</p>
+          <p>Under Québec’s Law 25, you can ask to see or correct your personal information, withdraw consent where applicable, or ask me to delete it. Legal retention requirements may limit deletion. Email <a href="mailto:marcos@fromtheshower.com">marcos@fromtheshower.com</a> and I’ll handle it personally.</p>
         </section>
 
         <section aria-labelledby="privacy-officer">
