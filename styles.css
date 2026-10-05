@@ -31,7 +31,9 @@ img { display: block; max-width: 100%; }
 .wordmark { text-decoration: none; font-size: 1.16rem; font-weight: 750; letter-spacing: -.055em; white-space: nowrap; }
 .wordmark-dot { color: var(--accent); }
 .header-link { font-size: .87rem; font-weight: 650; text-decoration: none; border-bottom: 1px solid currentColor; padding-block: .35rem; }
-.header-link span, .button span, .footer-links span { margin-left: .65em; }
+.arrow-icon { display: inline-block; width: 1rem; height: 1rem; margin-left: .65em; flex: none; vertical-align: -.14em; }
+.header-link .arrow-icon, .footer-links .arrow-icon { color: var(--ink); }
+.button-primary .arrow-icon, .mobile-booking .arrow-icon { color: #fff; }
 .header-link:hover, .footer-links a:hover { color: var(--accent-dark); }
 
 .hero { padding-top: clamp(4.5rem, 9vw, 9rem); }
@@ -99,7 +101,7 @@ h3 { margin: 0; font-size: 1.28rem; line-height: 1.25; letter-spacing: -.035em; 
 .logo-strip img { width: auto; max-width: 125px; height: auto; max-height: 42px; object-fit: contain; filter: grayscale(1); opacity: .77; }
 .logo-strip img:nth-child(2) { max-width: 85px; }
 .logo-strip img:nth-child(5) { max-height: 48px; }
-.logo-strip img:last-child { max-width: 95px; max-height: 45px; }
+.logo-strip .logo-gdi { max-width: 62px; max-height: 30px; }
 
 .faq-list { margin-left: 25%; border-top: 1px solid var(--ink); }
 .faq-list details { border-bottom: 1px solid var(--line); }
