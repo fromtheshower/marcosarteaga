@@ -184,10 +184,32 @@ if (!sendMail(ENQUIRY_RECIPIENT, 'New audit enquiry from website', $body, $passw
 }
 
 if ($spend === 'under-5k') {
-    $reply = "Thanks for your enquiry. This audit is designed for accounts spending at least $5,000 a month on ads, so it may not be the right fit yet. If the range you selected doesn't reflect your situation, reply and tell me more.\n\nMarcos";
-    if (!sendMail($email, 'About your audit enquiry', $reply, $password)) {
-        error_log('Enquiry form under-threshold auto-reply failed.');
-    }
+    $reply = implode("\n", [
+        'Hi ' . $name . ',',
+        '',
+        'Thanks for your enquiry.',
+        '',
+        "This audit is designed for accounts spending at least $5,000 a month on ads. That's where the economics work and where there's enough waste to find to make the audit worthwhile.",
+        '',
+        "If you're not there yet but plan to be, reply and tell me where you're headed. I'll tell you honestly whether it's worth waiting or if there's something useful I can point you to now.",
+        '',
+        'Best,',
+        'Marcos',
+    ]);
+} else {
+    $reply = implode("\n", [
+        'Hi ' . $name . ',',
+        '',
+        "Thanks for your enquiry. I've got it.",
+        '',
+        "I'll personally review your website, the platforms you're running on, and what's bothering you about the account. I'll reply within 2 business days about fit and next steps.",
+        '',
+        'Best,',
+        'Marcos',
+    ]);
+}
+if (!sendMail($email, 'Thanks for your audit enquiry', $reply, $password)) {
+    error_log('Enquiry form auto-reply failed.');
 }
 
 respond(200, 'Enquiry accepted for delivery.');
