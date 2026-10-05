@@ -13,6 +13,32 @@
   const mobileBooking = document.querySelector("#mobile-booking");
   const hero = document.querySelector(".hero");
   const booking = document.querySelector("#booking");
+  const language = form.querySelector('input[name="locale"]')?.value || "en";
+  const messages = {
+    en: {
+      platformRequired: "Choose at least one platform.",
+      notConnected: "This form isn’t connected yet. Your enquiry was not sent.",
+      sending: "Sending…",
+      sendFailed: "Your enquiry wasn’t sent. Please try again later.",
+    },
+    fr: {
+      platformRequired: "Choisissez au moins une plateforme.",
+      notConnected: "Ce formulaire n’est pas encore connecté. Votre demande n’a pas été envoyée.",
+      sending: "Envoi en cours…",
+      sendFailed: "Votre demande n’a pas été envoyée. Réessayez plus tard.",
+    },
+    es: {
+      platformRequired: "Selecciona al menos una plataforma.",
+      notConnected: "El formulario aún no está conectado. Tu consulta no se ha enviado.",
+      sending: "Enviando…",
+      sendFailed: "Tu consulta no se ha enviado. Vuelve a intentarlo más tarde.",
+    },
+  }[language] || {
+    platformRequired: "Choose at least one platform.",
+    notConnected: "This form isn’t connected yet. Your enquiry was not sent.",
+    sending: "Sending…",
+    sendFailed: "Your enquiry wasn’t sent. Please try again later.",
+  };
 
   spend.addEventListener("change", () => {
     spendNote.hidden = spend.value !== "under-5k";
@@ -20,7 +46,7 @@
 
   const updatePlatforms = () => {
     const selected = platformChecks.some((check) => check.checked);
-    platformChecks[0].setCustomValidity(selected ? "" : "Choose at least one platform.");
+    platformChecks[0].setCustomValidity(selected ? "" : messages.platformRequired);
     otherField.hidden = !otherCheck.checked;
     otherInput.required = otherCheck.checked;
     if (!otherCheck.checked) otherInput.value = "";
@@ -55,7 +81,7 @@
 
     const endpoint = window.siteConfig?.bookingEndpoint?.trim();
     if (!endpoint) {
-      status.textContent = "This form isn’t connected yet. Your enquiry was not sent.";
+      status.textContent = messages.notConnected;
       status.dataset.state = "error";
       return;
     }
@@ -68,7 +94,7 @@
     if (!data.otherPlatform) delete data.otherPlatform;
 
     button.disabled = true;
-    button.textContent = "Sending…";
+    button.textContent = messages.sending;
     const controller = new AbortController();
     const timeout = window.setTimeout(() => controller.abort(), 30000);
 
@@ -87,7 +113,7 @@
       success.hidden = false;
       success.focus();
     } catch {
-      status.textContent = "Your enquiry wasn’t sent. Please try again later.";
+      status.textContent = messages.sendFailed;
       status.dataset.state = "error";
     } finally {
       window.clearTimeout(timeout);

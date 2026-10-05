@@ -1,0 +1,203 @@
+<?php
+if (!defined('ABSPATH')) { http_response_code(404); exit; }
+?>
+<!doctype html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fafaf8" />
+    <meta name="description" content="Auditorías independientes de Google, Meta, TikTok y Snapchat Ads. Detecta gasto inútil, revisa la medición y consigue un plan de acción por prioridades." />
+    <link rel="canonical" href="https://marcosarteaga.com/es/" />
+    <link rel="alternate" hreflang="en-CA" href="https://marcosarteaga.com/" />
+    <link rel="alternate" hreflang="fr-CA" href="https://marcosarteaga.com/fr/" />
+    <link rel="alternate" hreflang="es-ES" href="https://marcosarteaga.com/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://marcosarteaga.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Marcos Arteaga" />
+    <meta property="og:url" content="https://marcosarteaga.com/es/" />
+    <meta property="og:title" content="Marcos Arteaga | Auditorías independientes de publicidad digital" />
+    <meta property="og:description" content="Una auditoría independiente de tus cuentas publicitarias y medición. Detecta gasto inútil y consigue un plan de acción por prioridades." />
+    <meta property="og:image" content="https://marcosarteaga.com/assets/marcos-portrait.png" />
+    <meta property="og:image:alt" content="Retrato de Marcos Arteaga" />
+    <meta name="twitter:card" content="summary" />
+    <title>Marcos Arteaga | Auditorías independientes de publicidad digital</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="../config.js"></script>
+    <script defer src="../script.js"></script>
+    <script type="application/ld+json">
+{
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "WebSite",
+                  "@id": "https://marcosarteaga.com/es/#website",
+                  "url": "https://marcosarteaga.com/es/",
+                  "name": "Marcos Arteaga",
+                  "inLanguage": "es-ES"
+            },
+            {
+                  "@type": "Person",
+                  "@id": "https://marcosarteaga.com/#marcos",
+                  "name": "Marcos Arteaga",
+                  "url": "https://marcosarteaga.com/",
+                  "image": "https://marcosarteaga.com/assets/marcos-portrait.png",
+                  "sameAs": [
+                        "https://www.linkedin.com/in/marcosarteaga/"
+                  ]
+            },
+            {
+                  "@type": "Service",
+                  "@id": "https://marcosarteaga.com/es/#audit",
+                  "name": "Auditoría de cuentas publicitarias",
+                  "serviceType": "Auditoría de cuentas publicitarias",
+                  "description": "Auditorías independientes de alcance cerrado de Google Ads, Meta Ads, TikTok Ads y Snapchat Ads, con informe escrito, plan de acción por prioridades y presentación en directo.",
+                  "provider": {
+                        "@id": "https://marcosarteaga.com/#marcos"
+                  },
+                  "url": "https://marcosarteaga.com/es/#offer"
+            }
+      ]
+}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Ir al contenido</a>
+
+    <header class="site-header wrap">
+      <a class="wordmark" href="#top" aria-label="Marcos Arteaga, volver arriba">Marcos Arteaga<span class="wordmark-dot">.</span></a>
+      <nav class="language-nav" aria-label="Idioma"><a href="/" lang="en">EN</a><a href="/fr/" lang="fr-CA">FR</a><a href="/es/" lang="es-ES" aria-current="page">ES</a></nav>
+      <a class="header-link" href="#booking">Solicitar una auditoría <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <p class="eyebrow">Auditorías publicitarias · Google · Meta · TikTok · Snapchat</p>
+        <h1 id="hero-title">Tu cuenta publicitaria está perdiendo dinero. Te enseñaré dónde.</h1>
+        <div class="hero-bottom">
+          <p class="hero-intro">Una auditoría de alcance cerrado de tus cuentas de Google Ads, Meta Ads, TikTok Ads o Snapchat Ads, entregada en 10 días laborables. Cada hallazgo respaldado por tus datos. Sin cuota mensual. Sin rodeos.</p>
+          <a class="button button-primary" href="#booking">Solicitar una auditoría <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
+        </div>
+        <div class="hero-footer" aria-hidden="true"><span>Diagnóstico independiente</span><span>Acciones por orden de prioridad</span><span>Hecho personalmente por Marcos</span></div>
+      </section>
+
+      <section class="section wrap" id="offer" aria-labelledby="offer-title">
+        <div class="section-heading">
+          <p class="section-kicker">La auditoría</p>
+          <div><h2 id="offer-title">No es una lista de comprobación.<br />Es un diagnóstico.</h2><p class="section-lede">Busco las decisiones, ajustes y fallos de medición que te cuestan dinero. Después te digo qué merece atención.</p></div>
+        </div>
+        <div class="audit-list">
+          <article class="audit-item"><h3>Revisión de la estructura</h3><p>Campañas, presupuestos y pujas. ¿La cuenta está organizada para aprender o para perder dinero?</p></article>
+          <article class="audit-item"><h3>Detección de gasto inútil</h3><p>Términos de búsqueda, ubicaciones, solapamiento de audiencias, fugas por zona y dispositivo, y palabras clave negativas mal configuradas. Cada hallazgo se apoya en tus datos.</p></article>
+          <article class="audit-item"><h3>Revisión de la medición</h3><p>Configuración de conversiones y atribución. ¿Puedes fiarte de las cifras que guían tus decisiones?</p></article>
+          <article class="audit-item"><h3>Revisión del mensaje</h3><p>¿Cumple la página de destino lo que promete el anuncio? Una revisión concreta, no producción creativa.</p></article>
+          <article class="audit-item"><h3>La decisión</h3><p>Una lista de cambios por prioridad: esta semana, este mes o mejor dejarlo como está. El valor está en decidir el orden.</p></article>
+        </div>
+        <div class="deliverables">
+          <p class="section-kicker">Qué recibes</p>
+          <div class="deliverables-content"><p>Un informe escrito basado en los datos de tu cuenta. Un plan de acción por prioridades. Una reunión de 60 minutos en la que explico y defiendo cada recomendación.</p><p class="metrics-line"><strong>Los números reales del negocio:</strong> MER calculado con las ventas reales y la inversión publicitaria analizada; CAC de pago a partir del gasto y los nuevos clientes. ROAS contrastado con las ventas, no solo con las conversiones atribuidas por las plataformas, explicando los límites de atribución.</p></div>
+        </div>
+        <div class="process-line"><strong>10 días laborables desde la reunión inicial y la entrega de accesos.</strong><span>Acceso de solo lectura y reunión inicial → análisis → informe y presentación. Si necesito más tiempo, te lo diré antes, no después.</span></div>
+      </section>
+
+      <section class="section soft-section" id="fit" aria-labelledby="fit-title">
+        <div class="wrap">
+          <div class="section-heading"><p class="section-kicker">Para quién es</p><div><h2 id="fit-title">Una respuesta clara.<br />Un alcance claro.</h2></div></div>
+          <div class="fit-grid">
+            <div class="fit-block"><h3>Esto es para ti si</h3><ul><li>Inviertes al menos 5.000 € al mes en Google Ads, Meta Ads, TikTok Ads o Snapchat Ads.</li><li>Sospechas que la cuenta rinde menos de lo que podría, pero nadie sabe decirte por qué.</li><li>Quieres una opinión independiente de alguien que no gestiona tu cuenta.</li></ul></div>
+            <div class="fit-block"><h3>Esto no es para ti si</h3><ul><li>Tu inversión publicitaria mensual está por debajo de unos 5.000 €. Normalmente, los números no compensan.</li><li>Buscas gestión continua de la cuenta o producción creativa.</li><li>Solo quieres una lista de comprobación automática.</li></ul></div>
+          </div>
+          <p class="boundary-note"><strong>El límite:</strong> Yo no gestiono las cuentas. Así mantengo el diagnóstico independiente. Tu equipo puede aplicar los cambios siguiendo mi hoja de ruta, o una agencia colaboradora seleccionada puede hacerlo en un encargo aparte, presupuestado después de la auditoría. La auditoría no incluye gestión continua, producción creativa ni garantías de mejora del ROAS.</p>
+        </div>
+      </section>
+
+      <section class="section wrap" id="example" aria-labelledby="example-title">
+        <div class="section-heading"><p class="section-kicker">Cómo pienso</p><div><h2 id="example-title">De dónde salen las pérdidas.</h2><p class="section-lede">Tres ejemplos ficticios, no resultados de clientes. Las decisiones reales salen de los datos de tu cuenta.</p></div></div>
+        <div class="example-list">
+          <article class="example-case" aria-labelledby="example-tracking">
+            <h3 id="example-tracking">Medición</h3>
+            <div class="example-grid">
+              <div class="example-step"><span class="example-label">Lo que veo</span><p>Todas las decisiones se toman según las conversiones de la plataforma. Un evento de compra se registra dos veces y nadie lo ha contrastado con las ventas reales.</p></div>
+              <div class="example-step"><span class="example-label">La decisión</span><p>Contrastar las conversiones de la plataforma con las ventas. Corregir la medición y después optimizar.</p></div>
+              <div class="example-step"><span class="example-label">Por qué importa</span><p>El problema no es que «haya bajado el ROAS». Es tomar decisiones con una cifra en la que no puedes confiar.</p></div>
+            </div>
+          </article>
+          <article class="example-case" aria-labelledby="example-incrementality">
+            <h3 id="example-incrementality">Incrementalidad</h3>
+            <div class="example-grid">
+              <div class="example-step"><span class="example-label">Lo que veo</span><p>Las campañas de captación siguen llegando a personas que ya compraron. El informe cuenta a esos compradores recurrentes como demanda nueva.</p></div>
+              <div class="example-step"><span class="example-label">La decisión</span><p>Excluir a los compradores conocidos cuando la plataforma lo permita. Separar la demanda de marca de la captación, con presupuesto y objetivo propios para cada una.</p></div>
+              <div class="example-step"><span class="example-label">Por qué importa</span><p>El problema no es solo que suba el CPA. Es pagar por atribuirte clientes que ya tenías.</p></div>
+            </div>
+          </article>
+          <article class="example-case" aria-labelledby="example-feed">
+            <h3 id="example-feed">Catálogo</h3>
+            <div class="example-grid">
+              <div class="example-step"><span class="example-label">Lo que veo</span><p>En una cuenta de Shopping, hay productos rechazados o mal categorizados. Los más vendidos apenas aparecen.</p></div>
+              <div class="example-step"><span class="example-label">La decisión</span><p>Corregir títulos, categorías y disponibilidad en el feed de productos antes de aumentar la inversión en Shopping.</p></div>
+              <div class="example-step"><span class="example-label">Por qué importa</span><p>El problema no es que «Shopping no nos funcione». El feed es el anuncio, y el tuyo falla.</p></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section statement-section" id="judgment" aria-labelledby="judgment-title">
+        <div class="wrap statement-inner"><p class="section-kicker">Criterio independiente</p><div><h2 id="judgment-title">La IA de Google trabaja para Google.</h2><p>Las recomendaciones automáticas pueden señalar ajustes. No pueden asumir tus prioridades ni defender qué cambio debe ir primero. Examino la cuenta, la medición y el camino hasta la conversión. Después decido qué corregir ahora, qué puede esperar y qué conviene dejar en paz.</p><div class="ai-second-beat"><h3>Y los chatbots tampoco pueden hacer esto.</h3><p>Sin una conexión directa, ChatGPT y Claude solo pueden leer lo que les pasas: capturas y exportaciones que pueden perder el recorrido entre el gasto y la conversión. Accedo a tus cuentas publicitarias y a tus datos analíticos en modo de solo lectura, decido las prioridades y defiendo esa decisión en una llamada de 60 minutos. Copiar las cifras de tu negocio en un chatbot también es una decisión sobre tus datos que conviene pensar bien.</p></div></div></div>
+      </section>
+
+      <section class="section wrap about-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading"><p class="section-kicker">Sobre Marcos</p><div><h2 id="about-title">Un especialista,<br />no otro panel de control.</h2></div></div>
+        <div class="about-grid">
+          <div class="portrait-frame"><img src="../assets/marcos-portrait.png" alt="Retrato en blanco y negro de Marcos Arteaga" width="400" height="400" loading="lazy" /></div>
+          <div class="about-copy"><p>Soy Marcos Arteaga. He trabajado en moda, venta directa al consumidor, SaaS, B2B y medios digitales. Ahora me centro en una sola tarea: encontrar dónde pierden dinero las cuentas publicitarias y darte un plan que puedas poner en práctica.</p></div>
+        </div>
+        <div class="logo-area"><p class="section-kicker">Experiencia seleccionada</p><div class="logo-strip" aria-label="Organizaciones presentes en la trayectoria de Marcos"><img src="../assets/hippoc.png" alt="Hippoc" width="200" height="60" loading="lazy" /><img src="../assets/future.png" alt="Future" width="100" height="42" loading="lazy" /><img src="../assets/mobile-nations.png" alt="Mobile Nations" width="300" height="106" loading="lazy" /><img src="../assets/mindgeek.png" alt="MindGeek" width="148" height="33" loading="lazy" /><img src="../assets/fhios.png" alt="Fhios" width="300" height="212" loading="lazy" /><img class="logo-gdi" src="../assets/groupe-dynamite.svg" alt="Groupe Dynamite" width="107" height="51" loading="lazy" /></div></div>
+      </section>
+
+      <section class="section soft-section faq-section" id="faq" aria-labelledby="faq-title"><div class="wrap"><div class="section-heading"><p class="section-kicker">Preguntas</p><div><h2 id="faq-title">Antes de solicitarla.</h2></div></div><div class="faq-list">
+        <details><summary>¿En qué se diferencia de la auditoría de mi agencia?</summary><p>Tu agencia tiene que evaluar un trabajo que ya es suyo. Yo no gestiono tu cuenta, así que no tengo nada que defender. Recibes un diagnóstico independiente.</p></details>
+        <details><summary>¿Qué necesitas de mí?</summary><p>Acceso de solo lectura a tus cuentas publicitarias, analítica y datos de ventas (Shopify o similar). No se cambia nada. Empezamos con una llamada de 20 minutos.</p></details>
+        <details><summary>¿Y si no encuentras nada importante?</summary><p>Te lo diré. Verás qué he revisado, qué funciona y qué dejaría como está. No inventaré un problema para llenar un informe.</p></details>
+        <details><summary>¿Aplicáis los cambios?</summary><p>Sí, a través de una agencia colaboradora seleccionada. Puede aplicar los cambios de mi hoja de ruta en un encargo aparte, presupuestado después de la auditoría. Tu equipo también puede ejecutar el plan. Yo no entro a gestionar la cuenta para mantener el diagnóstico independiente.</p></details>
+        <details><summary>¿Por qué un precio cerrado y no por horas?</summary><p>Porque compras una respuesta, no mis horas. El alcance y el precio se acuerdan en privado antes de empezar.</p></details>
+      </div></div></section>
+
+      <section class="section wrap booking-section" id="booking" aria-labelledby="booking-title">
+        <div class="section-heading"><p class="section-kicker">El siguiente paso</p><div><h2 id="booking-title">Solicita una auditoría.</h2><p class="section-lede">Cuéntame qué pasa en la cuenta. Te responderé personalmente en un plazo de 2 días laborables para hablar de si encaja y de los siguientes pasos.</p></div></div>
+        <div class="booking-grid"><div class="booking-aside"><p>No necesitas dar acceso a la cuenta para escribir. Si trabajamos juntos, el acceso será de solo lectura.</p><p>Alcance cerrado. Precio fijo. Sin gestión continua.</p></div>
+          <form id="booking-form" novalidate>
+            <input type="hidden" name="locale" value="es" />
+            <div class="form-row"><div class="field"><label for="name">Nombre <span aria-hidden="true">*</span></label><input id="name" name="name" autocomplete="name" required maxlength="120" /></div><div class="field"><label for="email">Correo electrónico <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254" /></div></div>
+            <div class="field"><label for="website">Sitio web <span aria-hidden="true">*</span></label><input id="website" name="website" type="url" inputmode="url" placeholder="https://tuempresa.com" required maxlength="500" /></div>
+            <div class="field"><label for="spend">Inversión publicitaria mensual <span aria-hidden="true">*</span></label><select id="spend" name="monthlyAdSpend" required><option value="">Elige un tramo</option><option value="under-5k">Menos de 5.000 €/mes</option><option value="5k-15k">De 5.000 a 15.000 €/mes</option><option value="15k-50k">De 15.000 a 50.000 €/mes</option><option value="50k-plus">50.000 € o más/mes</option></select></div>
+            <fieldset class="platforms-field"><legend>Plataformas <span aria-hidden="true">*</span></legend><p class="field-help">Marca todas las que correspondan.</p><div class="checkbox-grid">
+              <label><input type="checkbox" name="platforms" value="google" /> Google Ads</label>
+              <label><input type="checkbox" name="platforms" value="meta" /> Meta Ads</label>
+              <label><input type="checkbox" name="platforms" value="tiktok" /> TikTok Ads</label>
+              <label><input type="checkbox" name="platforms" value="snapchat" /> Snapchat Ads</label>
+              <label><input id="platform-other" type="checkbox" name="platforms" value="other" /> Otra plataforma (consúltame)</label>
+            </div></fieldset>
+            <div class="field" id="other-platform-field" hidden><label for="other-platform">¿Qué otra plataforma? <span aria-hidden="true">*</span></label><input id="other-platform" name="otherPlatform" maxlength="160" /></div>
+            <p class="spend-note" id="spend-note" hidden>La auditoría está pensada para cuentas que invierten al menos 5.000 € al mes. Aun así, puedes escribirme; te diré con sinceridad si tiene sentido para ti.</p>
+            <div class="field"><label for="concern">¿Qué te preocupa de tu cuenta? <span aria-hidden="true">*</span></label><textarea id="concern" name="concern" rows="5" required maxlength="3000" placeholder="¿Qué falla? ¿Qué has intentado ya?"></textarea></div>
+            <div class="visually-hidden" aria-hidden="true"><label for="company-fax">Deja este campo en blanco</label><input id="company-fax" name="companyFax" tabindex="-1" autocomplete="off" /></div>
+            <p class="form-small">Usaré estos datos para responder a tu solicitud de auditoría. <a href="privacy/">Cómo trato tus datos</a>.</p>
+            <button class="button button-primary submit-button" type="submit">Enviar solicitud de auditoría <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+          <div id="booking-success" class="booking-success" role="status" tabindex="-1" hidden>
+            <p class="section-kicker">Solicitud enviada</p>
+            <h3>Gracias por escribirme.</h3>
+            <p>Te responderé personalmente en un plazo de 2 días laborables para hablar de si encaja y de los siguientes pasos.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer wrap"><a class="wordmark" href="#top">Marcos Arteaga<span class="wordmark-dot">.</span></a><div class="footer-links"><a href="privacy/">Privacidad</a><a href="https://marcosarteaga.com/blog/">Blog (EN) <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a><a href="https://www.linkedin.com/in/marcosarteaga/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a><a href="https://fromtheshower.com/" target="_blank" rel="noopener noreferrer">FromTheShower <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a></div><small>© Marcos Arteaga</small></footer>
+
+    <a id="mobile-booking" class="mobile-booking" href="#booking" hidden>Solicitar una auditoría <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
+  </body>
+</html>
