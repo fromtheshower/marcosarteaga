@@ -1,0 +1,5 @@
+/build/
+/private/
+/marcosarteaga-mail.php
+__pycache__/
+*.pyc
