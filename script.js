@@ -27,12 +27,6 @@
       sending: "Envoi en cours…",
       sendFailed: "Votre demande n’a pas été envoyée. Réessayez plus tard.",
     },
-    es: {
-      platformRequired: "Selecciona al menos una plataforma.",
-      notConnected: "El formulario aún no está conectado. Tu consulta no se ha enviado.",
-      sending: "Enviando…",
-      sendFailed: "Tu consulta no se ha enviado. Vuelve a intentarlo más tarde.",
-    },
   }[language] || {
     platformRequired: "Choose at least one platform.",
     notConnected: "This form isn’t connected yet. Your enquiry was not sent.",

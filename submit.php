@@ -90,13 +90,15 @@ if (!empty($input['companyFax'])) {
 $name = field($input, 'name', 120);
 $email = field($input, 'email', 254);
 $website = field($input, 'website', 500);
+$country = field($input, 'country', 2);
 $concern = field($input, 'concern', 3000);
 $spend = field($input, 'monthlyAdSpend', 16);
 $locale = $input['locale'] ?? 'en';
 if (!filter_var($email, FILTER_VALIDATE_EMAIL) || !filter_var($website, FILTER_VALIDATE_URL)
     || !in_array(parse_url($website, PHP_URL_SCHEME), ['http', 'https'], true)
+    || !in_array($country, ['CA', 'US'], true)
     || !in_array($spend, ['under-5k', '5k-15k', '15k-50k', '50k-plus'], true)
-    || !is_string($locale) || !in_array($locale, ['en', 'fr', 'es'], true)) {
+    || !is_string($locale) || !in_array($locale, ['en', 'fr'], true)) {
     respond(422, 'Please check the form fields and try again.');
 }
 
@@ -159,20 +161,13 @@ fflush($handle);
 flock($handle, LOCK_UN);
 fclose($handle);
 
+$currency = $country === 'CA' ? 'CAD' : 'USD';
 $spendLabels = [
     'under-5k' => 'Under $5,000/month',
     '5k-15k' => '$5,000–$15,000/month',
     '15k-50k' => '$15,000–$50,000/month',
     '50k-plus' => '$50,000+/month',
 ];
-if ($locale === 'es') {
-    $spendLabels = [
-        'under-5k' => 'Menos de 5.000 €/mes',
-        '5k-15k' => '5.000–15.000 €/mes',
-        '15k-50k' => '15.000–50.000 €/mes',
-        '50k-plus' => '50.000 € o más/mes',
-    ];
-}
 $platformLabels = [
     'google' => 'Google Ads', 'meta' => 'Meta Ads', 'tiktok' => 'TikTok Ads',
     'snapchat' => 'Snapchat Ads', 'other' => 'Other',
@@ -183,9 +178,10 @@ $body = implode("\n", [
     'New paid-media audit enquiry', '',
     'Name: ' . $name,
     'Email: ' . $email,
-    'Language: ' . ['en' => 'English', 'fr' => 'French (Québec)', 'es' => 'Spanish (Spain)'][$locale],
+    'Language: ' . ['en' => 'English', 'fr' => 'French (Québec)'][$locale],
     'Website: ' . $website,
-    'Monthly ad spend: ' . $spendLabels[$spend],
+    'Country: ' . ['CA' => 'Canada', 'US' => 'United States'][$country],
+    'Monthly ad spend: ' . $spendLabels[$spend] . ' (' . $currency . ')',
     'Platforms: ' . implode(', ', $selected), '',
     'Concern:', $concern, '',
     'Reply to the sender at ' . $email,
@@ -202,7 +198,7 @@ $autoReplies = [
         'under' => [
             'Thanks for your enquiry.',
             '',
-            "This audit is designed for accounts spending at least $5,000 a month on ads. That's where the economics work and where there's enough waste to find to make the audit worthwhile.",
+            "This audit is designed for accounts spending at least $5,000 $currency a month on ads. That's where the economics work and where there's enough waste to find to make the audit worthwhile.",
             '',
             "If you're not there yet but plan to be, reply and tell me where you're headed. I'll tell you honestly whether it's worth waiting or if there's something useful I can point you to now.",
         ],
@@ -219,7 +215,7 @@ $autoReplies = [
         'under' => [
             'Merci pour votre demande.',
             '',
-            'Cet audit s’adresse aux comptes qui dépensent au moins 5 000 $ par mois en publicité. C’est à partir de là que l’analyse a le plus de chances d’être utile.',
+            'Cet audit s’adresse aux comptes qui dépensent au moins 5 000 $ ' . $currency . ' par mois en publicité. C’est à partir de là que l’analyse a le plus de chances d’être utile.',
             '',
             'Si vous n’y êtes pas encore, mais que vous comptez y arriver, répondez-moi et dites-moi où vous vous dirigez. Je vous dirai franchement s’il vaut mieux attendre ou si je peux déjà vous orienter vers quelque chose d’utile.',
         ],
@@ -227,23 +223,6 @@ $autoReplies = [
             'Merci pour votre demande. Je l’ai bien reçue.',
             '',
             'Je vais examiner personnellement votre site, les plateformes que vous utilisez et ce qui vous préoccupe dans vos comptes. Je vous répondrai dans les 2 jours ouvrables pour confirmer si l’audit vous convient et vous expliquer la suite.',
-        ],
-    ],
-    'es' => [
-        'subject' => 'Gracias por tu consulta sobre la auditoría',
-        'greeting' => 'Hola ' . $name . ',',
-        'closing' => 'Un saludo,',
-        'under' => [
-            'Gracias por tu consulta.',
-            '',
-            'Esta auditoría está pensada para cuentas que invierten al menos 5.000 € al mes en publicidad. A partir de ese nivel, el análisis tiene más posibilidades de resultar útil.',
-            '',
-            'Si aún no has llegado a esa cifra, pero esperas hacerlo, respóndeme y cuéntame adónde quieres llegar. Te diré con sinceridad si conviene esperar o si puedo orientarte hacia algo útil ahora.',
-        ],
-        'qualified' => [
-            'Gracias por tu consulta. La he recibido.',
-            '',
-            'Revisaré personalmente tu web, las plataformas en las que te anuncias y lo que te preocupa de la cuenta. Te responderé en un plazo de 2 días laborables para hablar de si la auditoría encaja y de los siguientes pasos.',
         ],
     ],
 ];

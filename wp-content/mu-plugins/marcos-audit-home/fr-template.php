@@ -9,9 +9,8 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
     <meta name="theme-color" content="#fafaf8" />
     <meta name="description" content="Audits indépendants de Google, Meta, TikTok et Snapchat Ads. Repérez les dépenses inutiles, vérifiez le suivi et repartez avec un plan d’action priorisé." />
     <link rel="canonical" href="https://marcosarteaga.com/fr/" />
-    <link rel="alternate" hreflang="en-CA" href="https://marcosarteaga.com/" />
+    <link rel="alternate" hreflang="en" href="https://marcosarteaga.com/" />
     <link rel="alternate" hreflang="fr-CA" href="https://marcosarteaga.com/fr/" />
-    <link rel="alternate" hreflang="es-ES" href="https://marcosarteaga.com/es/" />
     <link rel="alternate" hreflang="x-default" href="https://marcosarteaga.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Marcos Arteaga" />
@@ -67,7 +66,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
 
     <header class="site-header wrap">
       <a class="wordmark" href="#top" aria-label="Marcos Arteaga, retour en haut de page">Marcos Arteaga<span class="wordmark-dot">.</span></a>
-      <nav class="language-nav" aria-label="Langue"><a href="/" lang="en">EN</a><a href="/fr/" lang="fr-CA" aria-current="page">FR</a><a href="/es/" lang="es-ES">ES</a></nav>
+      <nav class="language-nav" aria-label="Langue"><a href="/" lang="en">EN</a><a href="/fr/" lang="fr-CA" aria-current="page">FR</a></nav>
       <a class="header-link" href="#booking">Demander un audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
     </header>
 
@@ -105,8 +104,8 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
         <div class="wrap">
           <div class="section-heading"><p class="section-kicker">À qui s’adresse l’audit</p><div><h2 id="fit-title">Une réponse claire.<br />Un cadre clair.</h2></div></div>
           <div class="fit-grid">
-            <div class="fit-block"><h3>C’est pour vous si</h3><ul><li>Vous dépensez au moins 5 000 $ par mois sur Google Ads, Meta Ads, TikTok Ads ou Snapchat Ads.</li><li>Vous pensez que le compte pourrait mieux performer, mais personne ne peut dire précisément pourquoi.</li><li>Vous voulez l’avis indépendant d’une personne qui ne gère pas votre compte.</li></ul></div>
-            <div class="fit-block"><h3>Ce n’est pas pour vous si</h3><ul><li>Vos dépenses publicitaires sont inférieures à environ 5 000 $ par mois. Le calcul en vaut rarement la peine.</li><li>Vous cherchez une gestion continue du compte ou de la création publicitaire.</li><li>Vous voulez seulement une liste de vérification automatisée.</li></ul></div>
+            <div class="fit-block"><h3>C’est pour vous si</h3><ul><li>Vous dépensez au moins 5 000 $ par mois (en dollars canadiens au Canada ou en dollars américains aux États-Unis) sur Google Ads, Meta Ads, TikTok Ads ou Snapchat Ads.</li><li>Vous pensez que le compte pourrait mieux performer, mais personne ne peut dire précisément pourquoi.</li><li>Vous voulez l’avis indépendant d’une personne qui ne gère pas votre compte.</li></ul></div>
+            <div class="fit-block"><h3>Ce n’est pas pour vous si</h3><ul><li>Vos dépenses publicitaires sont inférieures à environ 5 000 $ par mois (en dollars canadiens au Canada ou en dollars américains aux États-Unis). Le calcul en vaut rarement la peine.</li><li>Vous cherchez une gestion continue du compte ou de la création publicitaire.</li><li>Vous voulez seulement une liste de vérification automatisée.</li></ul></div>
           </div>
           <p class="boundary-note"><strong>La limite :</strong> Je ne gère pas les comptes moi-même. C’est ce qui garde mon diagnostic indépendant. Votre équipe peut appliquer les correctifs à partir de ma feuille de route, ou une agence partenaire sélectionnée peut le faire dans le cadre d’un mandat distinct, proposé après l’audit. L’audit ne comprend ni gestion continue, ni création publicitaire, ni garantie d’amélioration du ROAS.</p>
         </div>
@@ -170,6 +169,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
             <input type="hidden" name="locale" value="fr" />
             <div class="form-row"><div class="field"><label for="name">Nom <span aria-hidden="true">*</span></label><input id="name" name="name" autocomplete="name" required maxlength="120" /></div><div class="field"><label for="email">Courriel <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254" /></div></div>
             <div class="field"><label for="website">Site Web <span aria-hidden="true">*</span></label><input id="website" name="website" type="url" inputmode="url" placeholder="https://votreentreprise.com" required maxlength="500" /></div>
+            <div class="field"><label for="country">Pays <span aria-hidden="true">*</span></label><select id="country" name="country" required><option value="">Choisissez votre pays</option><option value="CA">Canada</option><option value="US">États-Unis</option></select><p class="field-help">Les tranches de dépenses sont en dollars canadiens pour le Canada et en dollars américains pour les États-Unis.</p></div>
             <div class="field"><label for="spend">Dépenses publicitaires mensuelles <span aria-hidden="true">*</span></label><select id="spend" name="monthlyAdSpend" required><option value="">Choisir une tranche</option><option value="under-5k">Moins de 5 000 $/mois</option><option value="5k-15k">5 000 $ à 15 000 $/mois</option><option value="15k-50k">15 000 $ à 50 000 $/mois</option><option value="50k-plus">50 000 $ et plus/mois</option></select></div>
             <fieldset class="platforms-field"><legend>Plateformes <span aria-hidden="true">*</span></legend><p class="field-help">Cochez toutes les plateformes pertinentes.</p><div class="checkbox-grid">
               <label><input type="checkbox" name="platforms" value="google" /> Google Ads</label>
