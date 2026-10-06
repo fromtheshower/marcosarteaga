@@ -30,8 +30,6 @@ add_action('template_redirect', static function (): void {
     $routes = [
         '/fr/' => 'fr-template.php',
         '/fr/privacy/' => 'fr-privacy-template.php',
-        '/es/' => 'es-template.php',
-        '/es/privacy/' => 'es-privacy-template.php',
     ];
     if (isset($routes[$path])) {
         $localizedTemplate = __DIR__ . '/marcos-audit-home/' . $routes[$path];

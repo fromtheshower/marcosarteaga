@@ -37,8 +37,6 @@ wordpress_files = [
     "marcos-audit-home/privacy-template.php",
     "marcos-audit-home/fr-template.php",
     "marcos-audit-home/fr-privacy-template.php",
-    "marcos-audit-home/es-template.php",
-    "marcos-audit-home/es-privacy-template.php",
 ]
 
 if output.is_symlink():

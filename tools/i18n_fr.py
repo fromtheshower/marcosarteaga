@@ -38,11 +38,11 @@ The fit\tÀ qui s’adresse l’audit
 A clear answer.\tUne réponse claire.
 A clear boundary.\tUn cadre clair.
 This is for you if\tC’est pour vous si
-You spend at least $5,000 a month across Google Ads, Meta Ads, TikTok Ads, or Snapchat Ads.\tVous dépensez au moins 5 000 $ par mois sur Google Ads, Meta Ads, TikTok Ads ou Snapchat Ads.
+You spend at least $5,000 a month (CAD in Canada, USD in the US) across Google Ads, Meta Ads, TikTok Ads, or Snapchat Ads.\tVous dépensez au moins 5 000 $ par mois (en dollars canadiens au Canada ou en dollars américains aux États-Unis) sur Google Ads, Meta Ads, TikTok Ads ou Snapchat Ads.
 You suspect the account underperforms but nobody can say exactly why.\tVous pensez que le compte pourrait mieux performer, mais personne ne peut dire précisément pourquoi.
 You want an independent read from someone who does not manage your account.\tVous voulez l’avis indépendant d’une personne qui ne gère pas votre compte.
 It isn’t for you if\tCe n’est pas pour vous si
-Your monthly ad spend is below roughly $5,000. The economics usually don’t work.\tVos dépenses publicitaires sont inférieures à environ 5 000 $ par mois. Le calcul en vaut rarement la peine.
+Your monthly ad spend is below roughly $5,000 (CAD in Canada, USD in the US). The economics usually don’t work.\tVos dépenses publicitaires sont inférieures à environ 5 000 $ par mois (en dollars canadiens au Canada ou en dollars américains aux États-Unis). Le calcul en vaut rarement la peine.
 You want ongoing account management or creative production.\tVous cherchez une gestion continue du compte ou de la création publicitaire.
 You only want an automated checklist.\tVous voulez seulement une liste de vérification automatisée.
 The boundary:\tLa limite :
@@ -94,6 +94,11 @@ Fixed scope. Flat fee. No ongoing management.\tPortée fixe. Forfait fixe. Aucun
 Name\tNom
 Email\tCourriel
 Website\tSite Web
+Country\tPays
+Select your country\tChoisissez votre pays
+Canada\tCanada
+United States\tÉtats-Unis
+Spend ranges are in CAD for Canada and USD for the US.\tLes tranches de dépenses sont en dollars canadiens pour le Canada et en dollars américains pour les États-Unis.
 Monthly ad spend\tDépenses publicitaires mensuelles
 Select a range\tChoisir une tranche
 Under $5,000/month\tMoins de 5 000 $/mois
@@ -120,7 +125,7 @@ Privacy policy.\tPolitique de confidentialité.
 Last updated: October 2026\tDernière mise à jour : octobre 2026
 You send an audit enquiry. I use it to answer you. Here’s what happens to the information you share.\tVous m’envoyez une demande d’audit. Je l’utilise pour vous répondre. Voici ce qui arrive aux renseignements que vous me confiez.
 What I collect\tCe que je recueille
-When you send an audit enquiry, I collect what you type into the form: your name, email address, website, monthly ad spend range, the platforms you use, and your message. If you choose “Other platform,” I collect the platform you name. No account access is needed—or asked for—at the enquiry stage.\tQuand vous envoyez une demande d’audit, je recueille ce que vous inscrivez dans le formulaire : votre nom, votre adresse courriel, votre site Web, votre tranche de dépenses publicitaires mensuelles, les plateformes utilisées et votre message. Si vous choisissez « Autre plateforme », je recueille aussi le nom de cette plateforme. Aucun accès à vos comptes n’est nécessaire ni demandé à cette étape.
+When you send an audit enquiry, I collect what you type into the form: your name, email address, website, country, monthly ad spend range, the platforms you use, and your message. If you choose “Other platform,” I collect the platform you name. No account access is needed—or asked for—at the enquiry stage.\tQuand vous envoyez une demande d’audit, je recueille ce que vous inscrivez dans le formulaire : votre nom, votre adresse courriel, votre site Web, votre pays, votre tranche de dépenses publicitaires mensuelles, les plateformes utilisées et votre message. Si vous choisissez « Autre plateforme », je recueille aussi le nom de cette plateforme. Aucun accès à vos comptes n’est nécessaire ni demandé à cette étape.
 The web host may log standard request details, such as your IP address. To limit spam, the form keeps a hashed IP key and submission times in a server temporary file.\tL’hébergeur peut conserver les données techniques habituelles des requêtes, comme votre adresse IP. Pour limiter les pourriels, le formulaire conserve une clé dérivée de l’adresse IP et l’heure des envois dans un fichier temporaire sur le serveur.
 Why I collect it\tPourquoi je les recueille
 To reply to your enquiry about fit and next steps. That’s the purpose. The form sends a short automatic acknowledgement; I follow up personally. The technical details keep the form running and limit spam.\tPour répondre à votre demande et discuter de l’adéquation et des prochaines étapes. C’est le but. Le formulaire envoie un bref accusé de réception automatique; je vous réponds ensuite personnellement. Les données techniques servent au fonctionnement du formulaire et à la prévention des pourriels.

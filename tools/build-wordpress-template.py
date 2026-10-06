@@ -16,8 +16,6 @@ for source_name, target_name in (
     ("privacy/index.html", "privacy-template.php"),
     ("fr/index.html", "fr-template.php"),
     ("fr/privacy/index.html", "fr-privacy-template.php"),
-    ("es/index.html", "es-template.php"),
-    ("es/privacy/index.html", "es-privacy-template.php"),
 ):
     source = root / source_name
     target = root / "wordpress/mu-plugins/marcos-audit-home" / target_name
