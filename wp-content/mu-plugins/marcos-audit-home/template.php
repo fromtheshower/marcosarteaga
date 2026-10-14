@@ -63,7 +63,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
     <header class="site-header wrap">
       <a class="wordmark" href="#top" aria-label="Marcos Arteaga, back to top">Marcos Arteaga<span class="wordmark-dot">.</span></a>
       <nav class="language-nav" aria-label="Language"><a href="/" lang="en" aria-current="page">EN</a><a href="/fr/" lang="fr-CA">FR</a></nav>
-      <a class="header-link" href="#booking">Book the audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
+      <a class="header-link" href="#booking">Request an audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
     </header>
 
     <main id="main">
@@ -72,10 +72,14 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
         <h1 id="hero-title">Your ad account is leaking money. I’ll show you exactly where.</h1>
         <div class="hero-bottom">
           <p class="hero-intro">A fixed-scope audit of your Google Ads, Meta Ads, TikTok Ads, or Snapchat Ads accounts, delivered in 10 business days. Every finding backed by your own data. No retainer. No fluff.</p>
-          <a class="button button-primary" href="#booking">Book the audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
+          <a class="button button-primary" href="#booking">Request an audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
         </div>
         <div class="hero-footer" aria-hidden="true"><span>Independent diagnosis</span><span>Prioritized next steps</span><span>Personally by Marcos</span></div>
       </section>
+
+      <div class="proof-section wrap">
+        <div class="logo-area"><p class="section-kicker">Selected experience</p><div class="logo-strip" aria-label="Organizations represented in Marcos's experience"><img src="assets/hippoc.png" alt="Hippoc" width="200" height="60" loading="lazy" /><img src="assets/future.png" alt="Future" width="100" height="42" loading="lazy" /><img src="assets/mobile-nations.png" alt="Mobile Nations" width="300" height="106" loading="lazy" /><img src="assets/mindgeek.png" alt="MindGeek" width="148" height="33" loading="lazy" /><img src="assets/fhios.png" alt="Fhios" width="300" height="212" loading="lazy" /><img class="logo-gdi" src="assets/groupe-dynamite.svg" alt="Groupe Dynamite" width="107" height="51" loading="lazy" /></div></div>
+      </div>
 
       <section class="section wrap" id="offer" aria-labelledby="offer-title">
         <div class="section-heading">
@@ -91,7 +95,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
         </div>
         <div class="deliverables">
           <p class="section-kicker">What you get</p>
-          <div class="deliverables-content"><p>A written report backed by your account data. A prioritized action plan. A 60-minute walkthrough where I defend every line.</p><p class="metrics-line"><strong>The business numbers:</strong> MER from actual sales and the ad spend in scope; paid CAC from spend and new-customer counts. ROAS checked against sales records, not just platform-attributed numbers, with attribution limits called out.</p></div>
+          <div class="deliverables-content"><p>A written report backed by your account data. A prioritized action plan. A 60-minute walkthrough where I defend every line.</p><p class="metrics-line"><strong>The business numbers:</strong> Real sales checked against reported conversions and audited ad spend. Paid CAC only when spend and new-customer counts cover the same scope and period. Company-wide MER only when total sales and marketing spend are available. Platform ROAS reviewed with attribution limits made clear.</p></div>
         </div>
         <div class="process-line"><strong>10 business days from kickoff and access.</strong><span>Read-only access and kickoff → analysis → report and walkthrough. If I need longer, you’ll hear about it before, not after.</span></div>
       </section>
@@ -104,6 +108,7 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
             <div class="fit-block"><h3>It isn’t for you if</h3><ul><li>Your monthly ad spend is below roughly $5,000 (CAD in Canada, USD in the US). The economics usually don’t work.</li><li>You want ongoing account management or creative production.</li><li>You only want an automated checklist.</li></ul></div>
           </div>
           <p class="boundary-note"><strong>The boundary:</strong> I don’t operate accounts myself. That keeps the diagnosis independent. Your team can run the fixes from my roadmap, or a vetted partner agency can implement them under a separate engagement quoted after the audit. The audit includes no ongoing management, creative production, or guaranteed ROAS lift.</p>
+          <p class="scope-note"><strong>Scope:</strong> Before kickoff, we agree which accounts, platforms, markets, analytics, and sales data the audit covers.</p>
         </div>
       </section>
 
@@ -118,12 +123,12 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
               <div class="example-step"><span class="example-label">Why it matters</span><p>The problem isn’t “ROAS dropped.” It’s steering by a number you can’t trust.</p></div>
             </div>
           </article>
-          <article class="example-case" aria-labelledby="example-incrementality">
-            <h3 id="example-incrementality">Incrementality</h3>
+          <article class="example-case" aria-labelledby="example-audience-overlap">
+            <h3 id="example-audience-overlap">Audience overlap</h3>
             <div class="example-grid">
-              <div class="example-step"><span class="example-label">What I see</span><p>Prospecting campaigns keep reaching people who already bought. The report counts returning buyers as new demand.</p></div>
-              <div class="example-step"><span class="example-label">The call</span><p>Exclude known buyers where the platform allows. Separate brand demand from prospecting, with a distinct budget and objective for each.</p></div>
-              <div class="example-step"><span class="example-label">Why it matters</span><p>The problem isn’t just rising CPA. It’s paying to claim customers you already had.</p></div>
+              <div class="example-step"><span class="example-label">What I see</span><p>A prospecting campaign reaches past buyers. Its report mixes first-time and returning customers.</p></div>
+              <div class="example-step"><span class="example-label">The call</span><p>Separate new from returning customers in the report. If the goal is acquisition, exclude known buyers where the platform allows, then assess the change.</p></div>
+              <div class="example-step"><span class="example-label">Why it matters</span><p>Reported prospecting CPA can include repeat purchases. That is a targeting and measurement question, not proof of incremental lift.</p></div>
             </div>
           </article>
           <article class="example-case" aria-labelledby="example-feed">
@@ -147,10 +152,9 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
           <div class="portrait-frame"><img src="assets/marcos-portrait.png" alt="Black-and-white portrait of Marcos Arteaga" width="400" height="400" loading="lazy" /></div>
           <div class="about-copy"><p>I’m Marcos Arteaga. I’ve worked across fashion retail, DTC, SaaS, B2B, and publishing. I now focus on one job: finding where paid media accounts leak money and giving you a plan you can actually use.</p></div>
         </div>
-        <div class="logo-area"><p class="section-kicker">Selected experience</p><div class="logo-strip" aria-label="Organizations represented in Marcos's experience"><img src="assets/hippoc.png" alt="Hippoc" width="200" height="60" loading="lazy" /><img src="assets/future.png" alt="Future" width="100" height="42" loading="lazy" /><img src="assets/mobile-nations.png" alt="Mobile Nations" width="300" height="106" loading="lazy" /><img src="assets/mindgeek.png" alt="MindGeek" width="148" height="33" loading="lazy" /><img src="assets/fhios.png" alt="Fhios" width="300" height="212" loading="lazy" /><img class="logo-gdi" src="assets/groupe-dynamite.svg" alt="Groupe Dynamite" width="107" height="51" loading="lazy" /></div></div>
       </section>
 
-      <section class="section soft-section faq-section" id="faq" aria-labelledby="faq-title"><div class="wrap"><div class="section-heading"><p class="section-kicker">Questions</p><div><h2 id="faq-title">Before you book.</h2></div></div><div class="faq-list">
+      <section class="section soft-section faq-section" id="faq" aria-labelledby="faq-title"><div class="wrap"><div class="section-heading"><p class="section-kicker">Questions</p><div><h2 id="faq-title">Before you reach out.</h2></div></div><div class="faq-list">
         <details><summary>How is this different from my agency’s audit?</summary><p>Your agency has to evaluate work it already owns. I don’t run your account, so I have nothing to defend. You get an independent diagnosis.</p></details>
         <details><summary>What do you need from me?</summary><p>Read-only access to your ad accounts, analytics, and sales data (Shopify or equivalent). Nothing gets changed. We start with a 20-minute kickoff call.</p></details>
         <details><summary>What if you find nothing major?</summary><p>Then I’ll say so. You’ll see what I checked, what held up, and what I’d leave alone. I won’t invent a problem to fill a report.</p></details>
@@ -159,10 +163,11 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
       </div></div></section>
 
       <section class="section wrap booking-section" id="booking" aria-labelledby="booking-title">
-        <div class="section-heading"><p class="section-kicker">The next step</p><div><h2 id="booking-title">Book the audit.</h2><p class="section-lede">Tell me what’s happening in the account. I’ll reply personally within 2 business days about fit and next steps.</p></div></div>
+        <div class="section-heading"><p class="section-kicker">The next step</p><div><h2 id="booking-title">Request an audit.</h2><p class="section-lede">Tell me what’s happening in the account. I’ll reply personally within 2 business days about fit and next steps.</p></div></div>
         <div class="booking-grid"><div class="booking-aside"><p>No account access needed to send an enquiry. If we work together, access is read-only.</p><p>Fixed scope. Flat fee. No ongoing management.</p></div>
-          <form id="booking-form" novalidate>
+          <form id="booking-form" method="post" action="/submit.php" novalidate>
             <input type="hidden" name="locale" value="en" />
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
             <div class="form-row"><div class="field"><label for="name">Name <span aria-hidden="true">*</span></label><input id="name" name="name" autocomplete="name" required maxlength="120" /></div><div class="field"><label for="email">Email <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254" /></div></div>
             <div class="field"><label for="website">Website <span aria-hidden="true">*</span></label><input id="website" name="website" type="url" inputmode="url" placeholder="https://yourcompany.com" required maxlength="500" /></div>
             <div class="field"><label for="country">Country <span aria-hidden="true">*</span></label><select id="country" name="country" required><option value="">Select your country</option><option value="CA">Canada</option><option value="US">United States</option></select><p class="field-help">Spend ranges are in CAD for Canada and USD for the US.</p></div>
@@ -180,7 +185,6 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
             <div class="visually-hidden" aria-hidden="true"><label for="company-fax">Leave this field blank</label><input id="company-fax" name="companyFax" tabindex="-1" autocomplete="off" /></div>
             <p class="form-small">I’ll use these details to reply about your audit enquiry. <a href="privacy/">How I handle your information</a>.</p>
             <button class="button button-primary submit-button" type="submit">Send audit enquiry <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></button>
-            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
           </form>
           <div id="booking-success" class="booking-success" role="status" tabindex="-1" hidden>
             <p class="section-kicker">Enquiry sent</p>
@@ -192,8 +196,8 @@ if (!defined('ABSPATH')) { http_response_code(404); exit; }
 
     </main>
 
-    <footer class="site-footer wrap"><a class="wordmark" href="#top">Marcos Arteaga<span class="wordmark-dot">.</span></a><div class="footer-links"><a href="privacy/">Privacy</a><a href="https://marcosarteaga.com/blog/">Blog <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a><a href="https://www.linkedin.com/in/marcosarteaga/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a><a href="https://fromtheshower.com/" target="_blank" rel="noopener noreferrer">FromTheShower <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a></div><small>© Marcos Arteaga</small></footer>
+    <footer class="site-footer wrap"><a class="wordmark" href="#top">Marcos Arteaga<span class="wordmark-dot">.</span></a><div class="footer-links"><a href="privacy/">Privacy</a><a href="https://www.linkedin.com/in/marcosarteaga/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a><a href="https://fromtheshower.com/" target="_blank" rel="noopener noreferrer">FromTheShower <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a></div><small>© Marcos Arteaga</small></footer>
 
-    <a id="mobile-booking" class="mobile-booking" href="#booking" hidden>Book the audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
+    <a id="mobile-booking" class="mobile-booking" href="#booking" hidden>Request an audit <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4M5.5 4H12v6.5" /></svg></a>
   </body>
 </html>

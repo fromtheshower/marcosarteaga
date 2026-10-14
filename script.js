@@ -17,18 +17,21 @@
   const messages = {
     en: {
       platformRequired: "Choose at least one platform.",
+      invalidFields: "Please complete the required fields before sending.",
       notConnected: "This form isn’t connected yet. Your enquiry was not sent.",
       sending: "Sending…",
       sendFailed: "Your enquiry wasn’t sent. Please try again later.",
     },
     fr: {
       platformRequired: "Choisissez au moins une plateforme.",
+      invalidFields: "Veuillez remplir les champs obligatoires avant l’envoi.",
       notConnected: "Ce formulaire n’est pas encore connecté. Votre demande n’a pas été envoyée.",
       sending: "Envoi en cours…",
       sendFailed: "Votre demande n’a pas été envoyée. Réessayez plus tard.",
     },
   }[language] || {
     platformRequired: "Choose at least one platform.",
+    invalidFields: "Please complete the required fields before sending.",
     notConnected: "This form isn’t connected yet. Your enquiry was not sent.",
     sending: "Sending…",
     sendFailed: "Your enquiry wasn’t sent. Please try again later.",
@@ -71,7 +74,12 @@
     status.dataset.state = "";
 
     updatePlatforms();
-    if (!form.reportValidity()) return;
+    if (!form.checkValidity()) {
+      status.textContent = messages.invalidFields;
+      status.dataset.state = "error";
+      form.reportValidity();
+      return;
+    }
 
     const endpoint = window.siteConfig?.bookingEndpoint?.trim();
     if (!endpoint) {

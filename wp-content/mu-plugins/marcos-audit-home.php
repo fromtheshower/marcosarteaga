@@ -11,6 +11,8 @@ add_filter('template_include', static function (string $template): string {
         $auditTemplate = __DIR__ . '/marcos-audit-home/template.php';
     } elseif (is_page('privacy')) {
         $auditTemplate = __DIR__ . '/marcos-audit-home/privacy-template.php';
+    } elseif (is_404()) {
+        $auditTemplate = __DIR__ . '/marcos-audit-home/not-found-template.php';
     } else {
         return $template;
     }
