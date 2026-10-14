@@ -7,7 +7,7 @@ TEXT = pairs("""
 Marcos Arteaga | Independent Paid Media Audits\tMarcos Arteaga | Audits indépendants de publicité numérique
 Privacy Policy | Marcos Arteaga\tPolitique de confidentialité | Marcos Arteaga
 Skip to content\tAller au contenu
-Book the audit\tDemander un audit
+Request an audit\tDemander un audit
 Paid-media audits · Google · Meta · TikTok · Snapchat\tAudits publicitaires · Google · Meta · TikTok · Snapchat
 Your ad account is leaking money. I’ll show you exactly where.\tVotre compte publicitaire perd de l’argent. Je vous montrerai où.
 A fixed-scope audit of your Google Ads, Meta Ads, TikTok Ads, or Snapchat Ads accounts, delivered in 10 business days. Every finding backed by your own data. No retainer. No fluff.\tUn audit à portée fixe de vos comptes Google Ads, Meta Ads, TikTok Ads ou Snapchat Ads, livré en 10 jours ouvrables. Chaque constat s’appuie sur vos données. Pas de mandat mensuel. Pas de blabla.
@@ -31,7 +31,7 @@ A prioritized fix list: do this week, do this month, leave alone. Prioritization
 What you get\tCe que vous recevez
 A written report backed by your account data. A prioritized action plan. A 60-minute walkthrough where I defend every line.\tUn rapport écrit fondé sur les données de votre compte. Un plan d’action priorisé. Une rencontre de 60 minutes où j’explique et défends chaque recommandation.
 The business numbers:\tLes vrais chiffres d’affaires :
-MER from actual sales and the ad spend in scope; paid CAC from spend and new-customer counts. ROAS checked against sales records, not just platform-attributed numbers, with attribution limits called out.\tLe MER calculé à partir des ventes réelles et des dépenses publicitaires analysées; le CAC payant à partir des dépenses et du nombre de nouveaux clients. Le ROAS est comparé aux ventes réelles, pas seulement aux conversions attribuées par les plateformes, avec les limites d’attribution expliquées.
+Real sales checked against reported conversions and audited ad spend. Paid CAC only when spend and new-customer counts cover the same scope and period. Company-wide MER only when total sales and marketing spend are available. Platform ROAS reviewed with attribution limits made clear.\tJe vérifie les ventes réelles par rapport aux conversions déclarées et aux dépenses publicitaires auditées. Je calcule le CAC payant seulement si les dépenses et le nombre de nouveaux clients couvrent le même périmètre et la même période, et le MER global seulement si les ventes et les dépenses marketing totales sont disponibles. J’examine le ROAS déclaré par les plateformes en précisant les limites de l’attribution.
 10 business days from kickoff and access.\t10 jours ouvrables après la rencontre de départ et l’obtention des accès.
 Read-only access and kickoff → analysis → report and walkthrough. If I need longer, you’ll hear about it before, not after.\tAccès en lecture seule et rencontre de départ → analyse → rapport et présentation. Si j’ai besoin de plus de temps, je vous le dirai avant, pas après.
 The fit\tÀ qui s’adresse l’audit
@@ -46,6 +46,8 @@ Your monthly ad spend is below roughly $5,000 (CAD in Canada, USD in the US). Th
 You want ongoing account management or creative production.\tVous cherchez une gestion continue du compte ou de la création publicitaire.
 You only want an automated checklist.\tVous voulez seulement une liste de vérification automatisée.
 The boundary:\tLa limite :
+Scope:\tPortée :
+Before kickoff, we agree which accounts, platforms, markets, analytics, and sales data the audit covers.\tAvant le début de l’audit, nous convenons des comptes, des plateformes, des marchés ainsi que des données analytiques et de vente à examiner.
 I don’t operate accounts myself. That keeps the diagnosis independent. Your team can run the fixes from my roadmap, or a vetted partner agency can implement them under a separate engagement quoted after the audit. The audit includes no ongoing management, creative production, or guaranteed ROAS lift.\tJe ne gère pas les comptes moi-même. C’est ce qui garde mon diagnostic indépendant. Votre équipe peut appliquer les correctifs à partir de ma feuille de route, ou une agence partenaire sélectionnée peut le faire dans le cadre d’un mandat distinct, proposé après l’audit. L’audit ne comprend ni gestion continue, ni création publicitaire, ni garantie d’amélioration du ROAS.
 How I think\tMa façon de réfléchir
 Where the leaks come from.\tD’où viennent les pertes.
@@ -56,10 +58,10 @@ Platform-reported conversions drive every decision. A purchase event fires twice
 Reconcile platform conversions with sales records. Fix measurement, then optimize.\tComparer les conversions de la plateforme aux ventes réelles. Corriger la mesure, puis optimiser.
 Why it matters\tPourquoi c’est important
 The problem isn’t “ROAS dropped.” It’s steering by a number you can’t trust.\tLe problème n’est pas « le ROAS a baissé ». C’est de prendre des décisions à partir d’un chiffre peu fiable.
-Incrementality\tIncrémentalité
-Prospecting campaigns keep reaching people who already bought. The report counts returning buyers as new demand.\tLes campagnes de prospection touchent encore des personnes qui ont déjà acheté. Le rapport compte ces clients comme une nouvelle demande.
-Exclude known buyers where the platform allows. Separate brand demand from prospecting, with a distinct budget and objective for each.\tExclure les acheteurs connus lorsque la plateforme le permet. Séparer la demande liée à la marque de la prospection, avec un budget et un objectif distincts pour chacune.
-The problem isn’t just rising CPA. It’s paying to claim customers you already had.\tLe problème n’est pas seulement la hausse du CPA. C’est de payer pour revendiquer des clients que vous aviez déjà.
+Audience overlap\tChevauchement des audiences
+A prospecting campaign reaches past buyers. Its report mixes first-time and returning customers.\tUne campagne de prospection touche d’anciens acheteurs. Son rapport mélange les nouveaux clients et les clients fidèles.
+Separate new from returning customers in the report. If the goal is acquisition, exclude known buyers where the platform allows, then assess the change.\tSéparer les nouveaux clients des clients fidèles dans le rapport. Si l’objectif est l’acquisition, exclure les acheteurs connus lorsque la plateforme le permet, puis évaluer le changement.
+Reported prospecting CPA can include repeat purchases. That is a targeting and measurement question, not proof of incremental lift.\tLe CPA déclaré pour la prospection peut inclure des achats répétés. C’est une question de ciblage et de mesure, pas une preuve d’effet incrémental.
 Feed\tFlux de produits
 In a Shopping account, products are disapproved or miscategorized. Best sellers barely serve.\tDans un compte Shopping, des produits sont refusés ou mal catégorisés. Les meilleurs vendeurs s’affichent à peine.
 Fix titles, categories, and availability in the product feed before increasing Shopping spend.\tCorriger les titres, les catégories et la disponibilité dans le flux de produits avant d’augmenter les dépenses Shopping.
@@ -75,7 +77,7 @@ not another dashboard.\tpas un autre tableau de bord.
 I’m Marcos Arteaga. I’ve worked across fashion retail, DTC, SaaS, B2B, and publishing. I now focus on one job: finding where paid media accounts leak money and giving you a plan you can actually use.\tJe suis Marcos Arteaga. J’ai travaillé dans la mode, la vente directe aux consommateurs, le SaaS, le B2B et l’édition. Aujourd’hui, je me concentre sur une chose : trouver où les comptes publicitaires perdent de l’argent et vous donner un plan que vous pouvez vraiment utiliser.
 Selected experience\tExpérience sélectionnée
 Questions\tQuestions
-Before you book.\tAvant de réserver.
+Before you reach out.\tAvant de m’écrire.
 How is this different from my agency’s audit?\tEn quoi cet audit diffère-t-il de celui de mon agence?
 Your agency has to evaluate work it already owns. I don’t run your account, so I have nothing to defend. You get an independent diagnosis.\tVotre agence doit évaluer son propre travail. Je ne gère pas votre compte; je n’ai donc rien à défendre. Vous obtenez un diagnostic indépendant.
 What do you need from me?\tDe quoi avez-vous besoin?
@@ -87,7 +89,7 @@ Yes, through a vetted partner agency. They can implement from my audit roadmap u
 Why a flat fee instead of hourly?\tPourquoi un forfait plutôt qu’un tarif horaire?
 Because you’re buying the answer, not my time. The scope and fee are agreed privately before the audit begins.\tParce que vous achetez une réponse, pas mes heures. La portée et le forfait sont convenus en privé avant le début de l’audit.
 The next step\tLa prochaine étape
-Book the audit.\tDemander un audit.
+Request an audit.\tDemander un audit.
 Tell me what’s happening in the account. I’ll reply personally within 2 business days about fit and next steps.\tDites-moi ce qui se passe dans votre compte. Je vous répondrai personnellement sous 2 jours ouvrables au sujet de l’adéquation et des prochaines étapes.
 No account access needed to send an enquiry. If we work together, access is read-only.\tAucun accès au compte n’est nécessaire pour m’écrire. Si nous travaillons ensemble, l’accès sera en lecture seule.
 Fixed scope. Flat fee. No ongoing management.\tPortée fixe. Forfait fixe. Aucune gestion continue.
@@ -119,7 +121,6 @@ Enquiry sent\tDemande envoyée
 Thanks for reaching out.\tMerci de m’avoir écrit.
 I’ll reply personally within 2 business days about fit and next steps.\tJe vous répondrai personnellement sous 2 jours ouvrables au sujet de l’adéquation et des prochaines étapes.
 Privacy\tConfidentialité
-Blog\tBlogue (EN)
 The plain version\tEn clair
 Privacy policy.\tPolitique de confidentialité.
 Last updated: October 2026\tDernière mise à jour : octobre 2026
